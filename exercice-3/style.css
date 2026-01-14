@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    margin: auto;
+    gap: 20px;
+    border: none;
+    background: linear-gradient(to right, #547cff, #02eeff);
+    border-radius: 0.5em;
+    padding: 1rem;
+}
+input,button{
+    border-radius: 0.5em;
+    border: none;
+    padding: 0.2rem;
+    text-align: center;
+    transition: 0.7s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #83ecff;
+    color:white;
+}
+div {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 5px; /* optionnel */
+}
