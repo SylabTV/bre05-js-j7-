@@ -1,12 +1,12 @@
 window.addEventListener("DOMContentLoaded", function () {
 
-    let username = sessionStorage.getItem("username");
+    let username = sessionStorage.getItem("name");
 
     if (username === null) {
         username = window.prompt("quel est votre nom");
-        sessionStorage.setItem("username", username);
+        sessionStorage.setItem("name", username);
     } else {
-        window.alert("Votre nom est : " + username);
+        window.alert("Votre nom est" + username);
     }
 
 });
