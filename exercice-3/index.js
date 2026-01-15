@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function(){
 let json = JSON.stringify(data);
 console.log(json);
 
-let obj = JSON.parse(str);
-console.log(obj);
+let trs = JSON.parse(str);
+console.log(trs);
 });
 
 
